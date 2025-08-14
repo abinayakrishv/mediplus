@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Dee Plus</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            background-color: #fce9e9; 
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 32px;
+            margin-top: 30px;
+            margin-bottom: 40px;
+            font-weight: bold;
+        }
+
+        .about-section {
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .about-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 40px;
+            flex-wrap: wrap;
+        }
+
+        .about-row img {
+            width: 250px;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .about-text {
+            flex: 1;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        .about-text h3 {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .about-text p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        
+        .center-text {
+            text-align: center;
+        }
+
+    
+        @media (max-width: 768px) {
+            .about-row {
+                flex-direction: column;
+                text-align: center;
+            }
+            .about-row img {
+                margin-bottom: 15px;
+            }
+        }
+        .teachers-section {
+    background-color: #ffe6e6; 
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.teachers-section h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.teachers-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.teacher-card {
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.teacher-card:hover {
+    transform: translateY(-5px);
+}
+
+.teacher-card img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 15px;
+}
+
+.teacher-card h3 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.teacher-card p {
+    font-size: 0.95rem;
+    color: #333;
+    line-height: 1.4;
+}
+
+    </style>
+</head>
+<body>
+      <div id="header-placeholder"></div>
+      
+
+    <h2>About DEE PLUS</h2>
+    <div class="about-section">
+
+        
+        <div class="about-row">
+            <img src="images/mindfulness-and-nature.jpg" alt="Our Mission">
+            <div class="about-text">
+                <h3>Our Mission</h3>
+                <p>Our mission is to provide a valuable resource of information and downloads
+                    to people who want to evolve mentally, emotionally and spiritually, and to
+                    help people become healthier, happier and more peaceful.</p>
+            </div>
+        </div>
+
+    
+        <div class="about-row center-text">
+            <div class="about-text">
+                <h3>Who we are</h3>
+                <p>Think of DEE PLUS as your lifelong guide to better mental health. We’re here 
+                    for you whenever you need us, wherever you are, helping you get through tough 
+                    times and find joy in every day.</p>
+            </div>
+            <img src="images/meditation_853x480.jpg-min.jpg" alt="Who we are">
+        </div>
+
+        
+        <div class="about-row center-text">
+            <div class="about-text">
+                <h3>What we do</h3>
+                <p>Through evidence-based meditation and mindfulness tools, mental health coaching, 
+                    therapy, psychiatry, Headspace helps you create life-changing habits to support 
+                    your mental health and find a healthier, happier you.</p>
+            </div>
+            <img src="images/yoga-day-exercise-meditation-graphic-relaxing-sports_520426_wh1200.png" alt="What we do">
+        </div>
+        <div class="about-row center-text">
+            <div class="about-text">
+                <h3>How We do it</h3>
+                <p>Our four values inform our decisions and how we operate day-to-day:put members
+                     first; bring beginner's mind;seek truth,speak truth;embrace ownership.
+                </p>
+                </div>
+                <img src="images/meditation-at-sunset-silhouette-with-sea-and-sky-art-for-relaxation-and-mindfulness-vector.jpg" alt="how we do it">
+
+
+    </div>
+    <section class="teachers-section">
+    <h2>Meet DEE PLUS Teachers</h2>
+    <div class="teachers-container">
+        <div class="teacher-card">
+            <img src="kessonga.jpg" alt="Kessonga">
+            <h3>Kessonga</h3>
+            <p>Kessonga is a meditation teacher, therapist, and acupuncturist who has worked with populations of all ages and backgrounds.</p>
+        </div>
+
+        <div class="teacher-card">
+            <img src="andy.jpg" alt="Andy">
+            <h3>Andy</h3>
+            <p>A former Buddhist monk and co-founder of the DEE PLUS app, Andy has guided people in meditation for over 20 years.</p>
+        </div>
+
+        <div class="teacher-card">
+            <img src="eve.jpg" alt="Eve">
+            <h3>Eve</h3>
+            <p>Eve has been with DEE PLUS since the beginning, teaching mindfulness and overseeing our meditation curriculum.</p>
+        </div>
+
+        <div class="teacher-card">
+            <img src="dora.jpg" alt="Dora">
+            <h3>Dora</h3>
+            <p>Dora is a meditation teacher and former psychiatric nurse who is passionate about the healing powers of connection and community.</p>
+        </div>
+    </div>
+</section>
+<div id="footer-placeholder"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
