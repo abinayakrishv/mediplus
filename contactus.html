@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        *{
+        
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+        
+        }
+        body{
+            background-color: #fce9e9;
+        }
+        .familytheraphy {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.familytheraphy h1 {
+    color: #7b2e7b;
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+}
+
+.familytheraphy .describe {
+    font-size: 1.6rem;
+    max-width: 900px;
+    margin: 0 auto 40px;
+    line-height: 1.6;
+    color: #333;
+}
+.therapy-cards {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    justify-content: center;
+}
+
+.card {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+
+    padding: 20px;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card img {
+    width: 100%;
+    border-radius: 30px;
+}
+
+.card h2 {
+    font-size: 1rem;
+    margin: 15px 0;
+    color: #7b2e7b;
+}
+
+.btn {
+    display: inline-block;
+    background: #7b2e7b;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.btn:hover {
+    background: #9c4f9c;
+}
+
+.review {
+    font-size: 0.9rem;
+    color: #555;
+}
+@media (max-width: 768px) {
+    .therapy-cards {
+        grid-template-columns: 1fr;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <div id="header-placeholder"></div>
+
+    <section class="familytheraphy">
+    <h1>Family Theraphy</h1>
+    <p class="describe">Family issues can be one of the biggest mental health stresstors in a personal's life.
+            Seeking help through family theraphy can be important step toward
+                    healing for you and loved one.
+    </p>
+    <div class="therapy-cards">
+        <div class="card">
+            <img src="images/80342737_l-scaled.jpg" alt="Family of Origin Work">
+            <h2>Understanding ‘Family Of Origin‘ Work in Therapy</h2>
+            <a href="#" class="btn">I Get This</a>
+            <p class="review">Medically reviewed By Rotary - LCP</p>
+        </div>
+
+        <div class="card">
+            <img src="images/GettyImages-1283399679-a21cff75a5734d56b5a2f974ffeff405.jpg" alt="Structural Family Therapy">
+            <h2>How Structural Family Therapy Works</h2>
+            <a href="#" class="btn">I Get This</a>
+            <p class="review">Medically reviewed By Carno - MD</p>
+        </div>
+        <div class="card">
+            <img src="images/stress.jpg" alt="Structural Family Therapy">
+            <h2>How Structural Family Therapy Works</h2>
+            <a href="#" class="btn">I Get This</a>
+            <p class="review">Medically reviewed By Carno - MD</p>
+        </div>
+        <div class="card">
+            <img src="images/GettyImages-11639920561-8cc7cbc743264135a234513167e58e5f.jpg" alt="Structural Family Therapy">
+            <h2>How Structural Family Therapy Works</h2>
+            <a href="#" class="btn">I Get This</a>
+            <p class="review">Medically reviewed By Carno - MD</p>
+        </div>
+        <div class="card">
+            <img src="images/filial-therapy.jpg" alt="Structural Family Therapy">
+            <h2>How Structural Family Therapy Works</h2>
+            <a href="#" class="btn">I Get This</a>
+            <p class="review">Medically reviewed By Carno - MD</p>
+        </div>
+        <div class="card">
+            <img src="images/uninvolved-or-neglectful-fatherhood-set-absent-dad-showing-a-lack-vector.jpg" alt="Structural Family Therapy">
+            <h2>How Structural Family Therapy Works</h2>
+            <a href="#" class="btn">I Get This</a>
+            <p class="review">Medically reviewed By Carno - MD</p>
+        </div>
+    </div>
+    </section>
+    <div id="footer-placeholder"></div>
+    <script src="script.js"></script>
+</body>
+</html>
