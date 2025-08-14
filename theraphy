@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    
+    <style>
+        body{
+            background:#fce9e9;
+            font-family: 'Roboto', sans-serif;
+        }
+        .main-header {
+  background:#B285C0;
+  color: white;
+  padding: 10px 20px;
+  position: fixed; 
+  z-index: 10;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px; 
+  color: #44003b;
+  font-size: bolder;
+}
+.image-grid{
+  width: 90%;
+  margin: auto;
+  gap: 20px;
+}
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #44003b;
+  margin: 40px 0 20px;
+}
+
+
+.top {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+.bottom {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: nowrap; 
+  margin-bottom: 30px;
+}
+
+.serv {
+  text-align: center;
+}
+
+.top .serv{
+  width: calc((100% / 3) - 13.33px); 
+  width: 30%;
+}
+
+.bottom .serv {
+  width: calc((100% / 2) - 20px); 
+  width: 30%;
+}
+
+.serv img {
+  width: 100%;
+  height: 300px;
+  display: block;
+  border-bottom-right-radius: 50px;
+  border-top-left-radius: 50px;
+  box-shadow: 0 8px 20px rgba(139, 0, 0, 0.7); 
+
+
+}
+
+.serv h3 {
+  margin-top: 8px;
+  font-size: 1rem;
+  color: #44003b;
+}
+.footer{
+    background-color: #B285C0;
+  color: white;
+  padding: 40px 20px;
+  border-radius: 30px;
+  width: 100%;
+  
+}
+.icon{
+    width: 24px;
+    height: 24px;
+    cursor:pointer;
+}
+.header-container li{
+    font-size: 18px;
+}
+    </style>
+</head>
+<body>
+    
+    
+
+    
+     <header class="main-header">
+  <div class=" header-container">
+    <div class="logo">DEE <br> PLUS</div>
+
+    <nav class="nav-links">
+      <a href="#">Home</a>
+      <a href="#">Theraphy
+      </a>
+      <a href="#">About Us</a>
+      <a href="#">Meditation</a>
+      <a href="#">Contact Us</a>
+    </nav>
+
+    <div class="icons">
+        <img src="images/search_8143292.png" alt="search" class="icon" >
+        <img src="images/contact_9774942.png" alt="user" class="icon">
+      
+    </div>
+  </div>
+</header>
+    
+
+          <h1>DEE PLUS Theraphy</h1>
+    <section class="theraphy">
+        <div class="content">
+        
+            
+        
+        <p>Theraphy is the process where the person works with a 
+            trained professional to explore thoughts,feelings
+            and behaviours in order to improve mental health,
+            cope with challenges and promote personal growth.
+            It can include talking,practising new skills, or using
+            specific techniques to heal,understand oneself better,
+                or manage life more effectively.
+        </p>
+        </div>
+        <div class="image-content">
+            <img src="images/male-client-therapist-right-time-feature_1320W_JR-1.png" alt="theraphy">
+        </div>
+    </section>
+    
+        <h2>Our Services</h2>
+        <div class="image-grid">
+        <div class="top">
+            <div class="serv">
+            <img src="images/Phychotherapy-min.jpg" alt="theraphy" >
+            <h3>Individual Theraphy</h3>
+        </div>
+         <div class="serv">
+            <img src="images/therapist supporting couple 1168x861-97205061.jpeg" alt="theraphy">
+            <h3>Couple Theraphy</h3>
+        </div>
+         <div class="serv">
+          <a href="family.html">
+            <img src="images/80342737_l-scaled.jpg" alt="theraphy">
+            <h3> Family Theraphy</h3>
+         </a>
+        </div>
+        </div>
+        <div class="bottom">
+            <div class="serv">
+            <img src="images/image_750x_67767385cb75d.jpg" alt="theraphy">
+            <h3>Group Theraphy</h3>
+        </div>
+        <div class="serv">
+            <img src="images/istockphoto-2154184023-612x612.jpg" alt="theraphy">
+            <h3>Online Theraphy</h3>
+        </div>
+
+    </div>
+        </div>
+        <footer class="footer">
+            <div class=" header-container">
+    <div class="logo">DEE <br> PLUS</div>
+
+            <ul>
+                <li>Home</li>
+                <li>Happiness week</li>
+                <li>About Us</li>
+                <li>Contact us</li>
+                <li>Course</li>
+                <li>Meditation</li>
+            </ul>
+            <ul>
+                <li>Quick Links</li>
+                <li>FAQS</li>
+                <li>Terms & Conditions</li>
+                <li>Help Centre</li>
+                <li>Partnership</li>
+            </ul>
+            <ul>
+                <li>Opening Time</li>
+                <li>Monday-Sunday</li>
+                <li>9.00AM to 9.00PM</li>
+            </ul>
+            <ul>
+                <li><img src="images/left-right-arrows_12557430.png" class="icon">Contact</li>
+                <li>6,Hentheran Road</li>
+                <li>Kongu Nagar,</li>
+                <li>Karur-26</li>
+                <li><img src="images/phone_4855297.png"  class="icon">+9532 3256</li>
+                <li><img src="images/mail_4933342.png" class="icon">deepluswell@gmail.com</li>
+            </ul>
+        </footer>
+    <script src="script.js"></script>
+</body>
+</html>
